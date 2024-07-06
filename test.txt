@@ -1,0 +1,24 @@
+int a=100;
+string b="NiuNiu";
+int open(string file,string mode){
+	assemble{
+		"li $r0,2",
+		"ldw $r1,16($bp)",
+		"ldw $r2,24($bp)",
+		"syscall"
+	}
+}
+void write(int fileId,string str,int size){
+	assemble{
+		"li $r0,0",
+		"ldw $r1,16($bp)",
+		"ldw $r2,24($bp)",
+		"ldw $r3,32($bp)",
+		"syscall"
+	}
+}
+void NiuNiu()
+{
+	int fileId=open("NiuNiuTheMostBeautifulGirl.txt","w");
+	write(fileId,"That is right!",14);
+}

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Lexier">
+      <UniqueIdentifier>{63581560-1387-4e6a-a951-8b1bcfee94f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Grammar">
+      <UniqueIdentifier>{38c79585-581e-48dc-9f0f-385c272efae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Synax">
+      <UniqueIdentifier>{3c729353-014d-483d-bdca-26f74e754673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\VirtualMachine">
+      <UniqueIdentifier>{0ff99a9f-dff1-4939-9b0e-c05f4382cf82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Translator">
+      <UniqueIdentifier>{ef82baf4-e72d-4bfd-b7da-3d317d654ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="源文件\Lexier">
+      <UniqueIdentifier>{f448a216-ab54-47fe-848d-af0239406a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Grammar">
+      <UniqueIdentifier>{31ca750d-5661-4d02-922c-7ad261b91e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Synax">
+      <UniqueIdentifier>{d3d76807-59ab-4e27-ba42-27d8cf8b1f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\VirtualMachine">
+      <UniqueIdentifier>{52ff338b-f3c1-4eaa-94f8-68b1e82eed26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Translator">
+      <UniqueIdentifier>{535683b4-d1ff-4551-b0c7-d77db2833504}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NiuCompiler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexier\Tooken.cpp">
+      <Filter>源文件\Lexier</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexier\Lexier.cpp">
+      <Filter>源文件\Lexier</Filter>
+    </ClCompile>
+    <ClCompile Include="Grammar\Grammar.cpp">
+      <Filter>源文件\Grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="Grammar\Node.cpp">
+      <Filter>源文件\Grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="Grammar\Json.cpp">
+      <Filter>源文件\Grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="Synax\Synax.cpp">
+      <Filter>源文件\Synax</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualMachine\VirtualMachine.cpp">
+      <Filter>源文件\VirtualMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualMachine\Instruction.cpp">
+      <Filter>源文件\VirtualMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="Synax\SymbolTable.cpp">
+      <Filter>源文件\Synax</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualMachine\Assembler.cpp">
+      <Filter>源文件\VirtualMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="Translator\Translator.cpp">
+      <Filter>源文件\Translator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lexier\Lexier.h">
+      <Filter>头文件\Lexier</Filter>
+    </ClInclude>
+    <ClInclude Include="Grammar\Grammar.h">
+      <Filter>头文件\Grammar</Filter>
+    </ClInclude>
+    <ClInclude Include="Grammar\Node.h">
+      <Filter>头文件\Grammar</Filter>
+    </ClInclude>
+    <ClInclude Include="Grammar\Json.h">
+      <Filter>头文件\Grammar</Filter>
+    </ClInclude>
+    <ClInclude Include="Synax\Synax.h">
+      <Filter>头文件\Synax</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualMachine\VirtualMachine.h">
+      <Filter>头文件\VirtualMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Synax\SymbolTable.h">
+      <Filter>头文件\Synax</Filter>
+    </ClInclude>
+    <ClInclude Include="Translator\Translator.h">
+      <Filter>头文件\Translator</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualMachine\Assembler.h">
+      <Filter>头文件\VirtualMachine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
